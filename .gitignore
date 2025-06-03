@@ -1,0 +1,60 @@
+# Node.js 依赖
+node_modules/
+
+# 构建输出
+/dist/
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 本地环境配置
+.env.local
+.env.*.local
+
+# 编辑器配置
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# SSH 密钥和敏感文件
+*.pem
+*.key
+*.pub
+*.crt
+*.p12
+*.pfx
+*.cer
+*.der
+*.csr
+*.srl
+*.ssh/
+id_ed25519
+id_ed25519.pub
+
+# 其他常见忽略
+*.swp
+*.swo
+
+# Windows 系统文件
+Desktop.ini
+$RECYCLE.BIN/
+
+# 备份文件
+*.bak
+*.tmp
+
+# Mac 系统文件
+.AppleDouble/
+.LSOverride
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 其他
+%USERPROFILE%/
