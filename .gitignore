@@ -58,3 +58,5 @@ __pycache__/
 
 # 其他
 %USERPROFILE%/
+vue-frontend/dist/
+1.docx

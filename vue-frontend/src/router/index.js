@@ -16,4 +16,12 @@ const router = createRouter({
   routes
 });
 
+router.beforeEach((to, from, next) => {
+  const isPublic = to.path === '/login';
+  const hasUser = !!localStorage.getItem('currentUser');
+  if (!isPublic && !hasUser) return next('/login');
+  if (isPublic && hasUser) return next('/');
+  next();
+});
+
 export default router;
